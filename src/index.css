@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,32 +7,32 @@
 @layer base {
   :root {
     --background: 216 28% 11%;
-    --foreground: 240 10% 95%;
+    --foreground: 0 0% 98%;
 
     --card: 217 25% 15%;
-    --card-foreground: 240 10% 95%;
+    --card-foreground: 0 0% 98%;
 
     --popover: 217 25% 15%;
-    --popover-foreground: 240 10% 95%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 270 50% 85%;
-    --primary-foreground: 216 28% 11%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 268 30% 45%;
-    --secondary-foreground: 240 10% 95%;
+    --secondary: 199 89% 60%;
+    --secondary-foreground: 216 28% 11%;
 
     --muted: 217 20% 25%;
-    --muted-foreground: 240 10% 70%;
+    --muted-foreground: 220 9% 65%;
 
-    --accent: 270 50% 85%;
-    --accent-foreground: 216 28% 11%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 240 10% 95%;
+    --destructive-foreground: 0 0% 98%;
 
     --border: 217 20% 25%;
     --input: 217 20% 25%;
-    --ring: 270 50% 85%;
+    --ring: 199 89% 48%;
 
     --radius: 0.5rem;
   }
@@ -45,16 +45,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Open Sans", sans-serif;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Cormorant", serif;
+    font-family: "Roboto", sans-serif;
   }
 
   html {
